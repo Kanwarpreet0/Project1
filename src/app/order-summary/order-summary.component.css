@@ -1,0 +1,43 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.top-button {
+  margin-right: 10px;
+}
+
+.text1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.buttons {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Optional: Style for MatIcon (assuming you are using Angular Material) */
+mat-icon {
+  font-size: 1.5em;
+}
