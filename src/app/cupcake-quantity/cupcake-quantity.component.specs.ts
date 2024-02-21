@@ -10,12 +10,12 @@ describe('CupcakeQuantityComponent', () => {
     await TestBed.configureTestingModule({
       imports: [CupcakeQuantityComponent]
     })
+
       .compileComponents();
     fixture = TestBed.createComponent(CupcakeQuantityComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });
