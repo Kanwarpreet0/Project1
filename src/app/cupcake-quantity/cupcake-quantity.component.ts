@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './cupcake-quantity.component.html',
   styleUrls: ['./cupcake-quantity.component.css']
 })
+
 export class CupcakeQuantityComponent implements OnInit {
   constructor(private router: Router) { }
 
