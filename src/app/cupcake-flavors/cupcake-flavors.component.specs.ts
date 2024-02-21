@@ -11,7 +11,6 @@ describe('CupcakeFlavorsComponent', () => {
       declarations: [CupcakeFlavorsComponent]
     })
       .compileComponents();
-
     fixture = TestBed.createComponent(CupcakeFlavorsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

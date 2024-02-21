@@ -9,7 +9,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class CupcakeFlavorsComponent implements OnInit {
   quantity: number = 0;
   selectedFlavor: string = '';
-
   constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {

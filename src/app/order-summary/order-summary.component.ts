@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-order-summary',
   templateUrl: './order-summary.component.html',
+  standalone: true,
   styleUrls: ['./order-summary.component.css']
 })
 export class OrderSummaryComponent {
@@ -47,6 +48,4 @@ export class OrderSummaryComponent {
   }
 }
 
-class OrderSummaryComponentImpl extends OrderSummaryComponent {
-}
 
