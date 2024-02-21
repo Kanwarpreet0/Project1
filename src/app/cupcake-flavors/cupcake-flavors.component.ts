@@ -6,6 +6,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   standalone: true,
   styleUrls: ['./cupcake-flavors.component.css']
 })
+
 export class CupcakeFlavorsComponent implements OnInit {
   quantity: number = 0;
   selectedFlavor: string = '';

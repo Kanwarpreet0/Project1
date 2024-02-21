@@ -10,6 +10,7 @@ describe('CupcakeFlavorsComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [CupcakeFlavorsComponent]
     })
+
       .compileComponents();
     fixture = TestBed.createComponent(CupcakeFlavorsComponent);
     component = fixture.componentInstance;
