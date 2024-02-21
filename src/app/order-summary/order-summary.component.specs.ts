@@ -11,7 +11,6 @@ describe('OrderSummaryComponent', () => {
       imports: [OrderSummaryComponent]
     })
       .compileComponents();
-
     fixture = TestBed.createComponent(OrderSummaryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

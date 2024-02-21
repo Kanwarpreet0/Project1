@@ -12,7 +12,6 @@ export class OrderSummaryComponent {
   quantity!: number;
   selectedFlavor!: string;
   subtotal!: number;
-
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
