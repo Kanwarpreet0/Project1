@@ -47,3 +47,6 @@ export class OrderSummaryComponent {
   }
 }
 
+class OrderSummaryComponentImpl extends OrderSummaryComponent {
+}
+
