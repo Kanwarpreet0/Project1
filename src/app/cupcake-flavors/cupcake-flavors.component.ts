@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-
 @Component({
   selector: 'cupcake-flavors-page',
   templateUrl: './cupcake-flavors.component.html',

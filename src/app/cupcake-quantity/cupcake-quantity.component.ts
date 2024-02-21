@@ -7,7 +7,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./cupcake-quantity.component.css']
 })
 export class CupcakeQuantityComponent implements OnInit {
-
   constructor(private router: Router) { }
 
   ngOnInit(): void {

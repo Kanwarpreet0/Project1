@@ -10,7 +10,6 @@ const routes: Routes = [
   { path: 'order-summary/:quantity/:flavor', component: OrderSummaryComponent },
   { path: '', redirectTo: '/cupcake-quantity', pathMatch: 'full' },
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
