@@ -21,7 +21,6 @@ export class OrderSummaryComponent {
       this.subtotal = params['subtotal'];
     });
   }
-
   goToFirstPage() {
     this.router.navigate(['/']).then(success => {
       if (success) {

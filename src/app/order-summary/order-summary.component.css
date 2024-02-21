@@ -37,7 +37,6 @@ button {
   cursor: pointer;
 }
 
-/* Optional: Style for MatIcon (assuming you are using Angular Material) */
 mat-icon {
   font-size: 1.5em;
 }
